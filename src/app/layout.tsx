@@ -1,8 +1,8 @@
 import "@/styles/globals.css";
-import { landingPageMetadata } from "@/data/metadata";
+import { LandingPageMetadata } from "@/data";
 import { inter } from "@/styles/fonts";
 
-export const metadata = landingPageMetadata;
+export const metadata = LandingPageMetadata;
 
 export default function RootLayout({
   children
