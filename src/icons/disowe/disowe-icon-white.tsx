@@ -6,12 +6,11 @@ interface DisoweIconProps {
 }
 
 const DisoweIconWhite = ({ size, color }: DisoweIconProps) => {
-
   const colors = clsx({
-    "white": color === "white",
-    "black": color === "black",
+    white: color === "white",
+    black: color === "black",
     "#284CF2": color === "blue"
-  })
+  });
 
   return (
     <svg
