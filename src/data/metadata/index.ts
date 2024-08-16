@@ -1,1 +1,1 @@
-export * from "./static";
+export { LandingPageMetadata } from "./static";
