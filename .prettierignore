@@ -8,3 +8,6 @@ public/
 .env.example
 .npmrc
 yarn.lock
+scripts/
+Dockerfile
+.gitkeep
