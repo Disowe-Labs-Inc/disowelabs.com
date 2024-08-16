@@ -4,8 +4,7 @@ import {
   WhyAreYouStillWaiting,
   Services,
   ContactUs
-}
-  from "@/components/landing";
+} from "@/components/landing";
 
 export default function Home() {
   return (

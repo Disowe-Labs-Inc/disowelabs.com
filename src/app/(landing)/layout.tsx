@@ -13,9 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} global-background-color`}>
-        <Container>
-          {children}
-        </Container>
+        <Container>{children}</Container>
       </body>
     </html>
   );
