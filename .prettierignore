@@ -1,0 +1,10 @@
+dist
+node_modules
+package.json
+.prettierignore
+public/
+.gitignore
+.husky/
+.env.example
+.npmrc
+yarn.lock
