@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import { LandingPageMetadata } from "@/data";
 import { inter } from "@/styles/fonts";
+import { Container } from "@/components/common";
 
 export const metadata = LandingPageMetadata;
 
@@ -12,7 +13,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} global-background-color`}>
-        {children}
+        <Container>
+          {children}
+        </Container>
       </body>
     </html>
   );
