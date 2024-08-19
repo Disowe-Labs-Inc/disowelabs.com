@@ -1,14 +1,15 @@
 "use client";
 
-import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import StartProjectBtn from "./start-a-project-btn";
+import { useNavigation } from "@/context/navigation-context";
+import MobileMenuContent from "./mobile-menu-content";
 
 const ButtonCTA = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { isDrawerOpen, setIsDrawerOpen } = useNavigation();
 
   const handleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+    setIsDrawerOpen(!isDrawerOpen);
   };
 
   return (
@@ -18,13 +19,14 @@ const ButtonCTA = () => {
       </div>
 
       <div className="flex md:hidden">
-        {isMenuOpen && (
+        <MobileMenuContent />
+        {isDrawerOpen && (
           <button onClick={handleMenu}>
             <X size={24} />
           </button>
         )}
 
-        {!isMenuOpen && (
+        {!isDrawerOpen && (
           <button onClick={handleMenu}>
             <Menu size={24} />
           </button>
