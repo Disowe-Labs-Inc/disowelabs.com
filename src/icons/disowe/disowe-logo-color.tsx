@@ -1,12 +1,13 @@
 interface DisoweLogoColorProps {
-  size?: number;
+  width?: number;
+  height?: number;
 }
 
-const DisoweLogoColor = ({ size }: DisoweLogoColorProps) => {
+const DisoweLogoColor = ({ width, height }: DisoweLogoColorProps) => {
   return (
     <svg
-      width={size ? size : 200}
-      height="125"
+      width={width ? width : 200}
+      height={height ? height : 200}
       viewBox="0 0 686 125"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
