@@ -4,7 +4,7 @@ import Link from "next/link";
 const styles = {
   titleList: "font-medium hidden md:flex md:flex-row md:gap-8",
   link: "text-black hover:text-blue-600"
-}
+};
 
 const MenuContent = () => {
   return (
@@ -16,8 +16,8 @@ const MenuContent = () => {
           </Link>
         ))}
       </div>
-    </div >
-  )
-}
+    </div>
+  );
+};
 
 export default MenuContent;

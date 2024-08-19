@@ -2,23 +2,23 @@ const NavigationData: INavigationItem[] = [
   {
     id: 1,
     title: "Home",
-    url: "#home",
+    url: "#home"
   },
   {
     id: 2,
     title: "About",
-    url: "#about",
+    url: "#about"
   },
   {
     id: 3,
     title: "Services",
-    url: "#services",
+    url: "#services"
   },
   {
     id: 4,
     title: "Contact Us",
-    url: "#contactus",
-  },
+    url: "#contactus"
+  }
 ];
 
 export { NavigationData };

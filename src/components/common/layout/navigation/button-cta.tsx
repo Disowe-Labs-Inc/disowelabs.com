@@ -1,16 +1,15 @@
-'use client';
+"use client";
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import StartProjectBtn from "./start-a-project-btn";
 
 const ButtonCTA = () => {
-
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-  }
+  };
 
   return (
     <div>
@@ -31,9 +30,8 @@ const ButtonCTA = () => {
           </button>
         )}
       </div>
-
     </div>
-  )
-}
+  );
+};
 
 export default ButtonCTA;
