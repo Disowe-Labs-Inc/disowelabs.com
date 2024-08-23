@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import { LandingPageMetadata } from "@/data";
 import { inter } from "@/styles/fonts";
-import { Container, Navigation } from "@/components/common";
+import { Container, Footer, Navigation } from "@/components/common";
 import CombinedProviders from "@/context";
 
 export const metadata = LandingPageMetadata;
@@ -18,6 +18,7 @@ export default function RootLayout({
           <Container>
             <Navigation />
             {children}
+            <Footer />
           </Container>
         </CombinedProviders>
       </body>
