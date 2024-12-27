@@ -14,8 +14,8 @@ const WhyAreYouStillWaiting = () => {
   return (
     <div>
       <div className="bg-gradient-to-r from-[#0B057B] via-[#223DDA] to-[#284CF2] py-14 rounded-3xl flex flex-col justify-center items-center">
-        <h2 className="text-6xl font-bold text-white">{content.heading}</h2>
-        <p className="max-w-xl text-center text-white py-5">
+        <h2 className="md:text-6xl text-4xl font-bold text-white text-center">{content.heading}</h2>
+        <p className="md:max-w-xl max-w-xs text-sm md:text-base text-center text-white py-5">
           {content.paragraph}
         </p>
         <Button
