@@ -1,2 +1,2 @@
-yarn format:staged
+yarn format:all
 yarn lint
