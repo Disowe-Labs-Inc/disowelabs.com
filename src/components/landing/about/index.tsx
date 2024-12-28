@@ -8,13 +8,13 @@ const About = () => {
         <InfoCard001
           className="col-span-3 row-span-2"
           heading="What we can offer you."
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet.adipiscing elit.Lorem ipsum dolor sit"
+          para="We deliver tailored solutions in software development, digital marketing, and cloud services to help your business thrive and innovate."
         />
         <InfoCard002
           className="col-span-5 row-span-2"
           bgColor="white"
           heading="Software Development"
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          para="We create innovative web, mobile, and AI-driven solutions. We deliver seamless, user-friendly software tailored to your business needs, helping you stand out in the digital world."
           imgUrl="/images/disowelabs-img-001.png"
           infoHeading="Web, Mobile App | AI"
         />
@@ -22,7 +22,7 @@ const About = () => {
           className="col-span-5 row-span-2"
           bgColor="white"
           heading="Digital Marketing & Designing"
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          para="We elevate your brand with expert social media marketing, creative brand design, and intuitive UX design. We craft strategies and designs that connect, engage, and inspire."
           imgUrl="/images/disowelabs-img-002.png"
           infoHeading="Social Media Marketing | Brand Designing | UX Designing "
         />
@@ -30,7 +30,7 @@ const About = () => {
           className="col-span-3 row-span-2"
           bgColor="white"
           heading="Cloud Solutions"
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur "
+          para="We simplify cloud migrations, ensuring secure, efficient transitions. We help your business leverage the cloud for scalability and innovation."
           imgUrl="/images/disowelabs-img-003.png"
           infoHeading="Cloud migrations"
         />
@@ -41,13 +41,13 @@ const About = () => {
         <InfoCard001
           className="w-full"
           heading="What we can offer you."
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet.adipiscing elit.Lorem ipsum dolor sit"
+          para="We deliver tailored solutions in software development, digital marketing, and cloud services to help your business thrive and innovate."
         />
         <InfoCard002
           className="w-full"
           bgColor="white"
           heading="Software Development"
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          para="We create innovative web, mobile, and AI-driven solutions. We deliver seamless, user-friendly software tailored to your business needs, helping you stand out in the digital world."
           imgUrl="/images/disowelabs-img-001.png"
           infoHeading="Web, Mobile App | AI"
         />
@@ -55,7 +55,7 @@ const About = () => {
           className="w-full"
           bgColor="white"
           heading="Digital Marketing & Designing"
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          para="We elevate your brand with expert social media marketing, creative brand design, and intuitive UX design. We craft strategies and designs that connect, engage, and inspire."
           imgUrl="/images/disowelabs-img-002.png"
           infoHeading="Social Media Marketing | Brand Designing | UX Designing "
         />
@@ -63,7 +63,7 @@ const About = () => {
           className="w-full"
           bgColor="white"
           heading="Cloud Solutions"
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur "
+          para="We simplify cloud migrations, ensuring secure, efficient transitions. We help your business leverage the cloud for scalability and innovation."
           imgUrl="/images/disowelabs-img-003.png"
           infoHeading="Cloud migrations"
         />
