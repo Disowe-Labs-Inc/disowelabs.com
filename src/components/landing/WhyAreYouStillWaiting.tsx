@@ -3,7 +3,7 @@ import { Button } from "../common";
 const content = {
   heading: "Why are you still waiting?",
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "Your vision deserves action. Partner with Disowe Labs today to turn your ideas into reality and create something extraordinary!",
   button: {
     content: "Contact us",
     link: "mailto:info@disowelabs.com"

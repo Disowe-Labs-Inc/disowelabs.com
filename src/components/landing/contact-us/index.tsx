@@ -8,13 +8,13 @@ const ContactUs = () => {
         <InfoCard001
           className="col-span-3 row-span-2"
           heading="Discover who we are"
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet.adipiscing elit.Lorem ipsum dolor sit"
+          para="We are a team of innovators focused on turning your ideas into impactful digital solutions across software, marketing, and cloud services."
         />
         <InfoCard002
           className="col-span-5 row-span-2"
           bgColor="white"
           heading="Colombo, Sri Lanka to whole world"
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          para="From Colombo, Sri Lanka, Disowe Labs delivers world-class digital solutions, bringing innovation and expertise to clients globally."
           imgUrl="/images/disowelabs-img-004.png"
           isInfoHeading={false}
         />
@@ -25,13 +25,13 @@ const ContactUs = () => {
         <InfoCard001
           className="w-full"
           heading="What we can offer you."
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet.adipiscing elit.Lorem ipsum dolor sit"
+          para="We deliver tailored solutions in software development, digital marketing, and cloud services to help your business thrive and innovate."
         />
         <InfoCard002
           className="w-full"
           bgColor="white"
           heading="Software Development"
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          para="We create innovative web, mobile, and AI-driven solutions. We deliver seamless, user-friendly software tailored to your business needs, helping you stand out in the digital world."
           imgUrl="/images/disowelabs-img-004.png"
           isInfoHeading={false}
         />

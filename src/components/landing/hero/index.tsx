@@ -6,7 +6,7 @@ const content = {
   labelText: "Updating with the latest",
   heading: "Bring your dream software into Reality.",
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "Disowe Labs turns your ideas into powerful software solutions. From apps to web platforms, we bring innovation and expertise to make your vision a reality.",
   highlights: ["Reality."]
 };
 
