@@ -7,7 +7,6 @@ const ContactUs = () => {
       <div className="hidden md:grid h-full w-full gap-4 grid-cols-8 grid-rows-2">
         <InfoCard001
           className="col-span-3 row-span-2"
-          bgColor="#284CF2"
           heading="Discover who we are"
           para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet.adipiscing elit.Lorem ipsum dolor sit"
         />
@@ -25,7 +24,6 @@ const ContactUs = () => {
       <div className="md:hidden flex flex-col space-y-4 w-full p-4">
         <InfoCard001
           className="w-full"
-          bgColor="#284CF2"
           heading="What we can offer you."
           para="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet.adipiscing elit.Lorem ipsum dolor sit"
         />
