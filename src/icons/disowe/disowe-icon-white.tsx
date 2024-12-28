@@ -1,11 +1,12 @@
 import clsx from "clsx";
 
 interface DisoweIconProps {
-  size?: number;
+  width?: number;
+  height?: number;
   color?: "white" | "blue" | "black";
 }
 
-const DisoweIconWhite = ({ size, color }: DisoweIconProps) => {
+const DisoweIconWhite = ({ width, height, color }: DisoweIconProps) => {
   const colors = clsx({
     white: color === "white",
     black: color === "black",
@@ -14,8 +15,8 @@ const DisoweIconWhite = ({ size, color }: DisoweIconProps) => {
 
   return (
     <svg
-      width={size ? size : 116}
-      height="125"
+      width={width ? width : 116}
+      height={height ? height : 116}
       viewBox="0 0 116 125"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

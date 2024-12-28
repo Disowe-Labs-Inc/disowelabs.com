@@ -2,7 +2,6 @@ import {
   Hero,
   About,
   WhyAreYouStillWaiting,
-  Services,
   ContactUs
 } from "@/components/landing";
 
@@ -12,7 +11,6 @@ export default function Home() {
       <Hero />
       <About />
       <WhyAreYouStillWaiting />
-      <Services />
       <ContactUs />
     </div>
   );
